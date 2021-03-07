@@ -1,0 +1,111 @@
+*::-webkit-scrollbar
+{
+	display:none;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+	
+}
+.top
+{
+	background-image: url("../img/top-pattern-150.png");
+}
+.log
+{
+	background-image: url("../img/bg1.jfif");
+	background-size:cover;
+}
+
+.top1
+{
+
+	background-size:cover;
+}
+.top-nav a
+{
+	color: white;
+}
+.banner{
+	background-image: url("../img/crime1.png");
+	background-size: cover;
+	color:blueviolet;
+}
+.slide{
+	background-color:rgba(0,0,0,0.6);
+}
+.col-2{
+	text-align:center;
+}
+.back-icon{
+	background-color:rgba(0,0,0,0.8);
+}
+.text h3{
+	font-size:20px;
+}
+.card{
+	background-color:rgba(0,0,0,0.2);
+	text-align:center;
+	border-color: seashell;
+	border-width: 5px;
+}
+.btn{
+	text-align:center;
+	width: 100px;
+}
+a{
+	text-decoration:none;
+	color:white;
+}
+.cyber1{
+	margin-top:-10%;
+	margin-left:30%;
+}
+.police{
+	margin-top:5%;
+}
+
+.menubar ul li {
+	list-style:none;
+	display:inline-flex;
+ 	
+}
+.menubar{
+	margin-top:1%;
+	text-align:center;
+	margin-right:-10px;
+	margin-left: -10px;
+}
+
+.menubar ul li{
+	padding:15px;
+	color:#ff0000;	
+}
+.menubar ul li a{
+	color : #ffffff;
+	text-decoration:none;
+	display: hidden;
+}
+
+.menubar ul li:hover{
+	background-color:#ff0000;
+	border-radius:10px;
+}
+.submenu{
+	display:none;
+}
+
+.menubar ul li:hover .submenu{
+	display:block;
+	position:absolute;
+	background-color:#000000;
+	padding:10px;
+	margin-top:15px;
+	margin-left:-15px;
+	margin-right:15px;
+	border-radius:10px;
+
+	
+}
+.menubar ul li:hover .submenu ul{
+	display:block;
+	margin-left:-30px;
+}

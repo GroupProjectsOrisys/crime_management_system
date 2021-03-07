@@ -1,0 +1,64 @@
+.admin{
+	background-image:url("../img/admin_back.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	width:100%;
+}
+.row{
+	display:flex;
+	text-align:justify;
+	color:#ffffff;
+}
+.col{
+	width:100%;
+	background-color:rgba(0,0,0,0.4);
+	margin:20px;
+	height:350px;
+	padding:15px;
+	font-size:20px;
+	line-height:1.2;
+}
+.menubar{
+	background-color:rgba(0,0,255,.3);
+	text-align:center;
+}
+.menubar ul {
+	list-style:none;
+	display:inline-flex;
+ 	
+}
+.menubar ul li{
+	padding:15px;
+	color:#ff0000;	
+}
+.menubar ul li a{
+	color : #ffffff;
+	text-decoration:none;
+}
+
+.menubar ul li:hover{
+	background-color:#ff0000;
+	border-radius:10px;
+}
+.submenu{
+	display:none;
+}
+.menubar ul li:hover .submenu{
+	display:block;
+	position:absolute;
+	background-color:#000000;
+	padding:10px;
+	margin-top:15px;
+	margin-left:-15px;
+	margin-right:15px;
+	border-radius:10px;
+	
+}
+.menubar ul li:hover .submenu ul{
+	display:block;
+	margin-left:-30px;
+}
+.menubar ul li:hover .submenu ul li{
+	padding:20px;
+	border-bottom:1px solid #ff0000;
+}

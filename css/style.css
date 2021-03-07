@@ -1,0 +1,50 @@
+body{
+    background-image:url("../img/1.jpg");
+    background-size:cover;
+  
+}
+table,td, th{
+    border:0px solid;
+    border-collapse: collapse;
+    padding:10px;
+}
+h1{
+    text-align:center;
+    color:black;
+   
+}
+form{
+    border:0px solid;
+    background-color:rgba(0,0,0,0.7);
+    width:450px;
+    height:auto;
+    border-radius:10px;
+    padding:10px;
+    margin-left:400px;
+    color:white;
+}
+input,textarea,select{
+    border:0px solid ;
+    padding:5px;
+    margin:3px;
+    background-color:rgba(0,0,0,0.8);
+    border-radius:5px;
+    color:white;
+}
+.btn1{
+    margin-left:300px;
+}
+.btn_reg{
+    border:0px solid;
+    margin:20px;
+    margin-left:100px;
+    background-color:rgba(0,0,0,0.2);
+    width:100px;
+    height:50px;
+}
+.btn2{
+    margin-left:100px;
+    background-color: rgba(0,0,255,0.5);
+    width:100px;
+    height:50px;
+}

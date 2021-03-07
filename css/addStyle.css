@@ -1,0 +1,39 @@
+.bi{
+    background-image:url("../img/complaint.jpg");
+    background-size:cover;
+}
+h1{
+    color:red;
+    text-align: center;
+    font-size:50px;
+    text-decoration:underline;
+    margin-left:50px;
+}
+.add
+{
+    text-align:center;
+    border:0px solid;
+    width:500px;
+    height:auto;
+    margin-top:80px;
+    margin-left:38%;
+    padding: 35px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+input{
+    padding:10px;
+    margin:10px;
+    border-radius:5px;
+}
+.btn-primary{
+    width:100px;
+    padding:10px;
+    border-radius:5px;
+    background-color:rgba(0,255,0,0.6);
+    margin-right:100px;
+    
+}
+.btn1{
+    margin-left:300px;
+}

@@ -1,0 +1,64 @@
+*::-webkit-scrollbar
+{
+	display:none;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+	
+}
+.top
+{
+	background-image: url("../img/top-pattern-150.png");
+}
+.log
+{
+	background-image: url("../img/bg1.jfif");
+	background-size:cover;
+}
+
+.top1
+{
+
+	background-size:cover;
+}
+.top-nav a
+{
+	color: white;
+}
+.banner{
+	background-image: url("../img/crime1.png");
+	background-size: cover;
+	color:blueviolet;
+}
+.slide{
+	background-color:rgba(0,0,0,0.6);
+}
+.col-2{
+	text-align:center;
+}
+.back-icon{
+	background-color:rgba(0,0,0,0.8);
+}
+.text h3{
+	font-size:20px;
+}
+.card{
+	background-color:rgba(0,0,0,0.2);
+	text-align:center;
+	border-color: seashell;
+	border-width: 5px;
+}
+.btn{
+	text-align:center;
+	width: 100px;
+}
+a{
+	text-decoration:none;
+	color:white;
+}
+.cyber1{
+	margin-top:-10%;
+	margin-left:30%;
+}
+.police{
+	margin-top:5%;
+}

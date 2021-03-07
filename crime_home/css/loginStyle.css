@@ -1,0 +1,32 @@
+body{
+	background-image:url("../img/loginbackgrnd.jpg");
+	background-size:cover;
+}
+h2{
+	color:white;
+	text-align: center;
+	font-size:50px;
+	text-decoration:underline;
+}
+.log
+{
+	text-align:center;
+	border:0px solid;
+	width:300px;
+	height:auto;
+	margin-top:100px;
+	margin-left:40%;
+	padding: 20px;
+	background-color: rgba(0,0,0,0.5);
+}
+input{
+	padding:10px;
+	margin:10px;
+	border-radius:5px;
+}
+.btn_login{
+	width:100px;
+	padding:10px;
+	border-radius:5px;
+	background-color:rgba(0,255,0,0.6)
+}

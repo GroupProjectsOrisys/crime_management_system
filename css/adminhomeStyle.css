@@ -1,0 +1,94 @@
+body{
+	
+    width:auto;
+    height:auto;
+    padding:16px;
+	background-color: rgb(116, 24, 168,0.5);
+}
+textarea
+{
+    width:180px;
+    height:50px;
+}
+h2{
+	text-align:center;
+	color:rgb(116, 24, 168);
+}
+tr,td
+{
+	border-collapse:collapse;
+}
+.sub
+{
+	text-align:center;
+	height:30px;
+}
+form
+{
+	border:1px solid white;
+	margin-left:37%;
+	padding:20px;
+	width:300px;
+	height:auto;
+	
+}
+input,textarea
+{
+    margin:10px;
+}
+/*nav section start*/
+.menubar 
+{
+	background-color:#000000;
+	text-align:center;
+	text-decoration:none;
+}
+.submenu
+{
+	display:none;
+
+}
+.log{
+	margin-left:35%;
+}
+.menubar ul 
+{
+	list-style-type:none;
+	display:inline-flex;	
+}
+.menubar ul li
+{
+	padding :15px;
+}
+.menubar ul li a
+{
+	color:#ffffff;
+	text-decoration:none;		
+}
+.menubar ul li:hover
+{
+	background-color:red;
+	border-radius:10px;
+}
+
+.menubar ul li:hover .submenu
+{	
+	display:block;
+	position:absolute;
+	margin-top:15px;
+	background-color:black;
+	border-radius:10px;
+	padding:10px;
+	
+}
+.menubar ul li:hover .submenu ul 
+{
+	display:block;
+	margin-left:-30px;	
+}
+.menubar ul li:hover .submenu ul li
+{
+	padding:10px;
+	border-bottom:1px solid red;
+}
+/*nav section end*/

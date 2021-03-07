@@ -1,0 +1,37 @@
+body{
+    background-image:url("../img/admin_back.jpg");
+    background-size:cover;
+  
+}
+
+h1{
+    text-align:center;
+    color:black;
+   
+}
+form{
+    border:0px solid;
+    background-color:rgba(0,0,0,0.2);
+    width:450px;
+    height:auto;
+    border-radius:10px;
+    padding:20px;
+    margin-left:350px;
+    color:white;
+}
+input,textarea,select{
+    border:0px solid ;
+    padding:10px;
+    margin:10px;
+    background-color:rgba(0,0,0,0.8);
+    border-radius:5px;
+    color:white;
+}
+.btn_reg{
+    border:0px solid;
+    margin:20px;
+    margin-left:100px;
+    background-color:rgba(0,0,0,0.2);
+    width:100px;
+    height:50px;
+}
